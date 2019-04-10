@@ -1,13 +1,25 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-search-box'
+import ReactSearchBox from 'react-search-box'
 
 export default class App extends Component {
   render () {
+    const data = [{
+      key: 'a',
+      value: 'aa'
+    }, {
+      key: 'b',
+      value: 'bb'
+    }, {
+      key: 'c',
+      value: 'cc'
+    }]
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <ReactSearchBox data={data} placeholder={'placeholder'} value={'a'} />
       </div>
     )
   }
 }
+
+

@@ -1,6 +1,6 @@
 {
-  "name": "react-search-box",
-  "version": "1.0.0",
+  "name": "react-search-box-vvv",
+  "version": "1.0.2",
   "description": "React searchbox",
   "author": "vrunda-thacker",
   "license": "MIT",
@@ -57,5 +57,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "fuse.js": "^3.4.4"
+  }
 }
